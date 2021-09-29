@@ -1,0 +1,107 @@
+ /* set the contents to centre*/
+ 
+ body{
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+ 
+ .main-container{
+    width: 1120px;
+    margin:0 auto;
+}
+.left-container{
+    float: left;
+    text-align: center;
+    background-color: rgb(148, 136, 130);
+    padding-top: 40px;
+    padding-left :0;
+    width: 300px;
+    margin-bottom: 0;
+    height: 630px;
+}
+image{
+    padding-top: 100px;
+}
+.central-image{
+    text-align: center;
+    padding-right: 0;
+}
+
+.name{
+    color: rgb(31, 15, 9);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 0;
+}
+.title{
+    color:rgb(31, 15, 9);
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.additonal-info{
+    background-color: rgb(148, 136, 130);
+    text-align: center;
+    width: 300px;   
+}
+.links{
+    padding: 0;
+}
+.links a{
+    font-size: 15PX;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    padding-left:  0; 
+    color:  rgb(65, 58, 58);
+    display: block;
+}
+
+.links li{
+    list-style-type: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.links a:hover {
+    background-color: rgb(202, 195, 195); 
+    color: rgb(31, 15, 9);
+    padding-top:  10px;
+    padding-bottom: 10px;
+    width: 100%;
+  }
+h2{
+    color: rgb(31, 15, 9);
+    text-align: left;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 20px;
+    border-bottom: 5px solid rgb(65, 58, 58);
+    border-bottom-width: medium;
+}
+
+.right-container{
+    float: right;
+    background-color: rgb(219, 199, 189);
+    width: 790px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    height: 655px;
+}
+.qualification{
+    font-weight: bold;
+    border-bottom: 5px solid rgb(65, 58, 58);
+    border-bottom-width: medium;
+}
+.information{
+    font-size: 15px;
+}
+.contact-info{
+    font-weight: bold;
+    border-bottom: 5px solid rgb(65, 58, 58);
+    border-bottom-width: medium;
+}
+
