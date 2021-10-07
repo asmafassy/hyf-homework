@@ -148,17 +148,13 @@ footer p a:visited{
 }
 /*-----------------------------------------BOTTOM------------------------*/
 .bottom-down{
-     width: 100%;
     display: flex;
-    padding: 10px;
-    justify-content: space-around;
+    padding: 10px 0 0 0;
 }
-.bottom b1 b2{
+.bottom{
+    width: 20%;
     color: white;
-}
-.bottom b3 b4{
-
-    color: white;
+    padding: 0 2.5%;
 }
 .b3 p, .b4 p{
 border-bottom: 1px solid gray;
@@ -166,9 +162,6 @@ padding-bottom: 10px;
 }
 .b3 p:last-child, .b4 p:last-child{
     border-bottom: none;
-}
-.b3, .b4{
-padding: 0px 0px;
 }
 #nav li{
     text-decoration: none;
