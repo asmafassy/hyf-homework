@@ -174,12 +174,25 @@ footer {
 
 /*------<>-----<>------<>--------P A G E 0 2------<>-----<>------<>-------->*/
 
+.bar {
+  width: 100%;
+  background-color: #b5f3ee;
+  height: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.twentyfive{
+  width: 25%;
+  height: 100%;
+  background-color: #017d89;
+  float: left;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
 
 
-
-
-
-.fifty2 {
+.fifty{
   width: 50%;
   height: 100%;
   background-color: #017d89;
@@ -188,14 +201,21 @@ footer {
   border-bottom-left-radius: 10px;
 }
 
-/*------<>-----<>------<>--------P A G E 0 3------<>-----<>------<>-------->*/
-.fifty3 {
+.seventyfive {
   width: 75%;
   height: 100%;
   background-color: #017d89;
   float: left;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+
+.hundred {
+  width: 100%;
+  height: 100%;
+  background-color: #017d89;
+  float: left;
+  border-radius: 10px;
 }
 
 
