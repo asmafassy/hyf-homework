@@ -137,7 +137,7 @@ input.larger {
 /*-------- B U T T O N----------*/
 .btn {
   border: 1px solid #888888;
-  padding: 15px 20px;
+  padding: 10px 20px;
   border-radius: 5px;
   background: rgb(135, 131, 131);
   background: linear-gradient(
@@ -147,10 +147,16 @@ input.larger {
   );
   float: right;
   margin: 20px 0;
+  text-decoration: none;
+  color: #2d394b;
 }
 .btn:active {
   background: #cccccc;
   box-shadow: inset 0px 0px 5px #c1c1c1;
+  color: #2d394b;
+}
+.btn:visited{
+  color: #2d394b;
 }
 .btn:hover {
   cursor: pointer;
