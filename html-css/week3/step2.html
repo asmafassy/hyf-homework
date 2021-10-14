@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Trirong"
+    />
+
+    <title>Step-02</title>
+  </head>
+
+  <body>
+    <header>
+      <p>Glamour Faashion Store</p>
+    </header>
+    <nav>
+      <!-----l o g o-------->
+      <div class="container">
+        <!---- N a v i g a t i o n-------->
+        <div class="navigation">
+          <div class="logo">
+            <div class="logo-icon"></div>
+            <div class="logo-name">
+              <h1>ViVa</h1>
+            </div>
+          </div>
+
+          <ul class="nav">
+            <li><a href="./step1.html">Home</a></li>
+            <li><a href="#"> Collection</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Vintage</a></li>
+            <li><a href="#">Casual</a></li>
+            <li><a href="#">Handbag</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--------- B A C K G R O U N D I M A G E --------------------------->
+
+    <div class="image-background">
+      <img src="./images/main2.jfif" alt="" class="hero-img" />
+      <img src="./images/main9.jfif" alt="" />
+      <img src="./images/main6.jfif" alt="" />
+    </div>
+
+    <!--------- C O N T A I N E R - S T A R T --------------------------->
+
+    <div class="container">
+      <h1>Sign up to viva.com</h1>
+      <h2>Step 2/4- how can we reach you?</h2>
+
+      <!--progress Bar 02 -->
+      <label for="bar">--progress</label>
+      <div class="bar">
+        <div class="fifty2"></div>
+      </div>
+
+      <p>
+        We will probably need to stay in touch somehow. Let us know how we can
+        reach you?
+      </p>
+
+      <!------------------F O R M S T A R T S -------------->
+      <form method="post" action="./step3.html">
+        <div class="contact-details">
+          <label for="email"> Email*</label>
+          <input
+            type="email"
+            id="email"
+            name="contact-details"
+            placeholder="Enter a valid e-mail"
+          />
+
+          <label for="contact">Phone </label>
+          <input
+            type="tel"
+            id="contact"
+            name="contact-details"
+            placeholder="Enter your Phone Number"
+          />
+        </div>
+
+        <div class="password">
+          <label for="password">Password*</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            minlength="8"
+            required
+          />
+          <label for="repassword">Re-enter Password*</label>
+          <input
+            type="password"
+            id="repassword"
+            name="password"
+            minlength="8"
+            required
+          />
+        </div>
+        <p>I want to sign up for the newsletter</p>
+        <label>Weekly news</label>
+        <input type="radio" id="weekly-news" name="news" />
+
+        <label>Monthly news</label>
+        <input type="radio" id="monthly-news" name="news" />
+
+        <label>Don't send me news</label>
+        <input type="radio" id="don't-send-me-news" name="news" />
+
+        <button class="btn" type="submit">Next Page</button>
+      </form>
+    </div>
+    <footer></footer>
+  </body>
+</html>

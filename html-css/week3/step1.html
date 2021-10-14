@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <title>Step-01</title>
+</head>
+
+<body>
+    <header>
+        <p>Glamour Faashion Store</p>
+    </header>
+    <nav>
+        <!-----L O G O -------->
+
+
+        <!---- N A V I G  A T I O N-------->
+        <div class="container">
+            <div class="navigation">
+
+                <div class="logo">
+
+                    <div class="logo-icon">
+                    </div>
+
+                    <div class="logo-name">
+                        <h1>ViVa</h1>
+                    </div>
+
+                </div>
+
+                <ul class="nav">
+                    <li><a href="./step1.html">Home</a></li>
+                    <li><a href="#"> Collection</a></li>
+                    <li><a href="#">Features</a></li>
+                    <li><a href="#">Vintage</a></li>
+                    <li><a href="#">Casual</a></li>
+                    <li><a href="#">Handbag</a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <!--------- B A C K G R O U N D I M A G E --------------------------->
+    <div class="image-background">
+        <img src="./images/main2.jfif" alt="" class="hero-img">
+        <img src="./images/main9.jfif" alt="">
+        <img src="./images/main6.jfif" alt="">
+
+    </div>
+
+    <!--------- C O N T A I N E R - S T A R T --------------------------->
+    <div class="container">
+        <h1>Sign up to viva.com </h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora iusto commodi, sequi laboriosam voluptate!
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, distinctio enim dolorem optio, mollitia
+            ipsum,
+            magnam eum provident nesciunt voluptate natus quidem architecto accusantium libero sed soluta. Tempora,
+            alias
+            beatae.</p>
+
+        <!--Progress Bar-->
+        <h2> Step 1 tell us who you are?</h2>
+        <div class="bar">
+            <div class="fifty"></div>
+            <div class="twentyfive"></div>
+            <div class="ten"></div>
+        </div>
+        <!---------F O R M S T  A R T S-------------->
+
+        <form method="post" action="./step2.html">
+            <!---- name section-->
+            <fieldset>
+                <legend>Nice to meet you! Let's spend a minute to get to know each other? Please enter the following:
+                </legend>
+                <div class="name">
+                    <label for="name"> First name*</label>
+                    <input type="text" id="first-name" name="first-name" placeholder="Enter your first Name">
+
+                    <label for="name"> Last name*</label>
+                    <input type="text" id="last-name" name="last-name" placeholder="Enter your last Name">
+                </div>
+
+                <!---------country-------------->
+                <div class="country">
+                    <label>Country*</label>
+                    <select>
+                        <option>South Korea</option>
+                        <option>Malaysia</option>
+                        <option>Singapore</option>
+                        <option>China</option>
+                        <option>Thailand</option>
+                        <option>Japan</option>
+                    </select>
+                </div>
+
+                <!-------Address-------------->
+                <div class="address">
+                    <label>Street address*</label>
+                    <input type="text" id="address" name="address">
+                    <label>Post code*</label>
+                    <input type="number" id="field" name="address" pattern="\d{4}" maxlength="4" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Profile Description</legend>
+
+
+                <!--- decription -->
+                <div class="description">
+                    <span>Please provide a short description of your self to be displayed on our
+                        social community pages.
+                    </span>
+                    <textarea id="description" name="description" maxlength="500"></textarea>
+                </div>
+
+
+                <!----Shipping Address---->
+
+                <div class="shipping-add">
+                    <p>Use the same address for billing and shipping ! Uncheck below to fill out a seperate shipping
+                        address.
+                    </p>
+                    <label for="shiping-address"> shipping address</label>
+                    <input id="shiping-address" type="checkbox" class="larger" name="address" value="shipping-address">
+
+
+
+                </div>
+
+            </fieldset>
+
+
+
+            <button class='btn' type="submit">Next Page</button>
+        </form>
+
+    </div>
+
+    </div>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
