@@ -1,1 +1,2 @@
 Texts sample.
+Added more texts.
