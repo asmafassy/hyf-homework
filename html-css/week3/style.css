@@ -1,4 +1,28 @@
-/*-------- H E A D E R----------*/
+/* ----------- B O D Y ------------*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Trirong", serif;
+  color: #2d394b;
+}
+
+/* ----------- c o n t a i n e r------------*/
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+
+/*--------H E R O I M A G E----------*/
+.image-background {
+  display: inline-block;
+  width: 100%;
+}
+.image-background img {
+  width: 33%;
+  height: auto;
+}/*-------- H E A D E R----------*/
 header {
   background-color: #2d394b;
   color: #9cc9f5;
@@ -45,34 +69,7 @@ header {
 }
 
 
-/* ----------- B O D Y ------------*/
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Trirong", serif;
-  color: #2d394b;
-}
 
-
-
-
-/* ----------- c o n t a i n e r------------*/
-.container {
-  width: 90%;
-  margin: 0 auto;
-}
-
-
-
-/*--------H E R O I M A G E----------*/
-.image-background {
-  display: inline-block;
-  width: 100%;
-}
-.image-background img {
-  width: 33%;
-  height: auto;
-}
 
 
 /*---- name----*/
@@ -301,7 +298,7 @@ ul.image-list {
 /*------<>-----<>------<>--------MEDIA QUERIES------<>-----<>------<>-------->*/
 
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .nav a {
     float: none;
     width: 100%;
