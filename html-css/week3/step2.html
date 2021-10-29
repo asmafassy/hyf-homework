@@ -44,9 +44,9 @@
     <!--------- B A C K G R O U N D I M A G E --------------------------->
 
     <div class="image-background">
-      <img src="./images/main2.jfif" alt="" class="hero-img" />
-      <img src="./images/main9.jfif" alt="" />
-      <img src="./images/main6.jfif" alt="" />
+      <img src="./images/main2.jfif" alt="A woman with a hat"class="hero-img" />
+      <img src="./images/main9.jfif" alt="Two girls posing for the photo" />
+      <img src="./images/main6.jfif" alt="A fashion model" />
     </div>
 
     <!--------- C O N T A I N E R - S T A R T --------------------------->
@@ -74,6 +74,7 @@
             id="email"
             name="contact-details"
             placeholder="Enter a valid e-mail"
+            required
           />
 
           <label for="contact">Phone </label>
@@ -91,7 +92,7 @@
             type="password"
             id="password"
             name="password"
-            minlength="8"
+            pattern="(?=.*[a-z])(?=.*[A-Z]).{10,}"
             required
           />
           <label for="repassword">Re-enter Password*</label>
@@ -99,13 +100,13 @@
             type="password"
             id="repassword"
             name="password"
-            minlength="8"
+            pattern="(?=.*[a-z])(?=.*[A-Z]).{10,}"
             required
           />
         </div>
         <p>I want to sign up for the newsletter</p>
         <label>Weekly news</label>
-        <input type="radio" id="weekly-news" name="news" />
+        <input type="radio" id="weekly-news" name="news" required />
 
         <label>Monthly news</label>
         <input type="radio" id="monthly-news" name="news" />
@@ -113,7 +114,9 @@
         <label>Don't send me news</label>
         <input type="radio" id="don't-send-me-news" name="news" />
 
-        <a href="./step3.html" class="btn">Next Page</a>
+
+        <button type="submit" class="btn">Next Page</button>
+        <!--<a href="./step3.html" class="btn">Next Page</a>-->
       </form>
     </div>
     <footer></footer>
