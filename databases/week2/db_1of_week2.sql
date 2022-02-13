@@ -46,13 +46,16 @@ set
 WHERE
   task.id = 10;
 --Mark a task as complete
-UPDATE
-  task
+UPDATE task
   JOIN status ON status.id = task.status_id
-set
-  task.status_id = '3'
-WHERE
-  task.id = 3;
+set task.status_id  = 
+(SELECT id
+from status
+WHERE status.id=2 );
+
+SELECT *
+FROM task;
+
 --Delete a task
 DELETE FROM
   task

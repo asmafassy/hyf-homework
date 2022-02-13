@@ -10,7 +10,7 @@ SELECT *
 FROM task
 JOIN user_task on task.id=user_task.task_id
 JOIN user ON user.id=user_task.user_id
-WHERE user.name='Donald Duck' AND ;
+WHERE user.name='Donald Duck' AND task.status_id=1 ;
 
 --Get all the tasks for 'Maryrose Meadows' that were created in september (hint: month(created)=month_number)
 SELECT *
