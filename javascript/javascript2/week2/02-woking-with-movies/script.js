@@ -85,6 +85,8 @@ function sumOfRatings() {
 }
 sumOfRatings();
 
+
+// Q9) Count the total number of Good, Average and Bad movies 
 function getTotalOfMVRatingCategories() { // a= initial value b=Movie object
   let ratingCategories = movies.reduce(
     (a, b) => {
