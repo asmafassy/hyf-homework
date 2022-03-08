@@ -1,0 +1,42 @@
+[
+    {
+        "id" : 1,
+        "title" : "Indian food in the summer",
+        "maxNumberOfGuests" : 5,
+        "description" : "A nice night out eating delicious indian food",
+        "createdAt" : "2019/12/7 14:34",
+        "price" : 67
+    },
+    {
+        "id" : 2,
+        "title" : "Danish dessert in the winter",
+        "maxNumberOfGuests" : 2,
+        "description" : "A nice delicious Rice Pudding",
+        "createdAt" : "2019/12/24 14:34",
+        "price" : 23
+    },
+    {
+        "id" : 3,
+        "title" : "Rich Sashimi",
+        "maxNumberOfGuests" : 3,
+        "description" : "Enjoy one of the famous dishes from Japan",
+        "createdAt" : "2019/12/13 14:24",
+        "price" : 175
+    },
+    {
+        "id" : 4,
+        "title" : "Muhallabia",
+        "maxNumberOfGuests" : 2,
+        "description" : "Middle Eastern Milk Pudding",
+        "createdAt" : "2019/12/24 12:34",
+        "price" : 99
+    },
+    {
+        "id" : 5,
+        "title" : "Sri-Lankan Chicken Kottu",
+        "maxNumberOfGuests" : 2,
+        "description" : "Chopped flatbread mixed and mashed together with chicken and Veggies",
+        "createdAt" : "2019/12/24 14:34",
+        "price" : 350
+    }
+]
