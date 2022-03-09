@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Benjamin Hughes",
+    "email": "benjamin@hughes.dk",
+    "mealId": 1
+  },
+  {
+    "id": 2,
+    "name": "Asma Fassy",
+    "email": "asma@fassy.dk",
+    "mealId": 2
+  },
+  {
+    "id": 3,
+    "name": "Donald Duck",
+    "email": "don@duck.dk",
+    "mealId": 3
+  },
+  {
+    "id": 4,
+    "name": "Flying Angel",
+    "email": "flyingangel@gmail.dk",
+    "mealId": 5
+  },
+  {
+    "id": 5,
+    "name": "Plum Sugar",
+    "email": "plumy@pudding.dk",
+    "mealId": 2
+  },
+  {
+    "id": 6,
+    "name": "Asma Fassy",
+    "email": "asma@fassy.dk",
+    "mealId": 5
+  },
+  {
+    "id": 7,
+    "name": "Brainy box",
+    "email": "brainy@box.dk",
+    "mealId": 2
+  }
+]

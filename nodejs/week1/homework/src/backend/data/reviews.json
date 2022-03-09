@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "numberOfStars": 3,
+    "content": "Best meal ever",
+    "mealId": 1,
+    "createdAt": 12345
+  },
+  {
+    "id": 2,
+    "numberOfStars": 4,
+    "content": "I have to say, I enjoyed every single bite of the dessert",
+    "mealId": 2,
+    "createdAt": 12795
+  },
+  {
+    "id": 3,
+    "numberOfStars": 4,
+    "content": "I will be back again",
+    "mealId": 2,
+    "createdAt": 12345
+  },
+  {
+    "id": 4,
+    "numberOfStars": 4,
+    "content": "Food is stunning",
+    "mealId": 3,
+    "createdAt": 12345
+  },
+  {
+    "id": 5,
+    "numberOfStars": 4,
+    "content": "Excellent",
+    "mealId": 4,
+    "createdAt": 12345
+  },
+  {
+    "id": 6,
+    "numberOfStars": 4,
+    "content": "This is my absolute favorite",
+    "mealId": 5,
+    "createdAt": 12345
+  },
+  {
+    "id": 7,
+    "numberOfStars": 4,
+    "content": "Its one of my favourites, and love the relish served along.",
+    "mealId": 5,
+    "createdAt": 12345
+  }
+]
